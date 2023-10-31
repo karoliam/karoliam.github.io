@@ -1,0 +1,22 @@
+.galleryContainer {
+  width: 800px;
+  margin: auto;
+}
+.oneCarousel {
+    margin-bottom: 4rem;
+}
+img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.descriptionContainer {
+  text-align: left;
+  width: 400px;
+  margin: 2rem auto;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
