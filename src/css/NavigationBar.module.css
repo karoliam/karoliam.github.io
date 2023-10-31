@@ -1,0 +1,11 @@
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navContainer {
+  justify-content: center;
+}
+ul {
+  padding-left: 0 !important;
+}

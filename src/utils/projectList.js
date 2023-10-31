@@ -31,8 +31,13 @@ import NokiaDesktop8 from '../assets/nokia/NokiaDesktop8.png';
 import NokiaDesktop9 from '../assets/nokia/NokiaDesktop9.png';
 import NokiaDesktop10 from '../assets/nokia/NokiaDesktop10.png';
 import NokiaDesktop11 from '../assets/nokia/NokiaDesktop11.png';
-
-
+import NokiaMobile1 from '../assets/nokia/NokiaMobile1.png';
+import NokiaMobile2 from '../assets/nokia/NokiaMobile2.png';
+import NokiaMobile3 from '../assets/nokia/NokiaMobile3.png';
+import NokiaMobile4 from '../assets/nokia/NokiaMobile4.png';
+import NokiaMobile5 from '../assets/nokia/NokiaMobile5.png';
+import NokiaMobile6 from '../assets/nokia/NokiaMobile6.png';
+import NokiaMobile7 from '../assets/nokia/NokiaMobile7.png';
 
 const projectList = [
   {
@@ -98,7 +103,35 @@ const projectList = [
         source: NokiaDesktop11,
         alt: "Nokia desktop view 11",
         width: "600px",
-      }
+      },
+      {
+        source: NokiaMobile1,
+        alt: "Nokia Mobile view 1",
+      },
+      {
+        source: NokiaMobile2,
+        alt: "Nokia Mobile view 2",
+      },
+      {
+        source: NokiaMobile3,
+        alt: "Nokia Mobile view 3",
+      },
+      {
+        source: NokiaMobile4,
+        alt: "Nokia Mobile view 4",
+      },
+      {
+        source: NokiaMobile5,
+        alt: "Nokia Mobile view 5",
+      },
+      {
+        source: NokiaMobile6,
+        alt: "Nokia Mobile view 6",
+      },
+      {
+        source: NokiaMobile7,
+        alt: "Nokia Mobile view 7",
+      },
     ],
     description: `Mobile first web-application for Nokia. This app allows Nokia employees to share their daily emotions.
      The application is combined with an LED lighting installation that reacts to each emotion expressed,
@@ -161,7 +194,7 @@ const projectList = [
     ],
     description: `This app is a unique concept that brings the age-old tradition of drawing and writing on toilet walls into the digital world. The app is designed to work with Bluetooth, making it completely connectionless, and users can send messages through Bluetooth advertising.
    `,
-    techStack: ["Kotlin", "Android", "Jetpack Compose", "Bluetooth", "Drawing pad"]
+    techStack: ["Kotlin", "Android", "Jetpack Compose", "Room", "Bluetooth"]
 
   },
   {
@@ -239,7 +272,11 @@ const projectList = [
         width: "250px",
       }
     ],
-    description: "Description for sirpa",
+    description: `Sirpa is a versatile iOS travel app that simplifies journey documentation.
+     It supports multiple languages, uses Core Data and Firestore for data storage, features MapKit for location tracking
+      and employs speech recognition for quick note-taking. Users can create geotagged posts, manage trips,
+       and explore random locations. It offers device-specific login, post management, and a user-friendly profile interface,
+        making travel documentation efficient and engaging.`,
     techStack: ["iOS", "Swift", "MapKit", "CoreData", "Firebase Firetore & Storage", "Speech-to-text", "Localization"]
   },
 ];

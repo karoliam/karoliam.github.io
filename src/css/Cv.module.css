@@ -1,0 +1,12 @@
+.resume {
+  width: 600px;
+}
+.cvSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+}
+.cvButton {
+  margin-bottom: 0.5rem;
+}
