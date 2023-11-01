@@ -10,9 +10,8 @@ const CV = () => {
   return (
     <>
       <div id="cv-section" className={styles.cvSection}>
+      <h2>Resume</h2>
       <button onClick={openPdf} className={styles.cvButton}>Open CV</button>
-
-      {/* <a href={resumepdf} className={styles.cvButton}>Download CV</a> */}
       <Image src={Resume} className={styles.resume} />
       </div>
     </>

@@ -6,7 +6,12 @@ function App() {
 
   return (
     <>
+    <div className="page-container">    
+    <aside />
     <PortfolioPage></PortfolioPage>
+    <aside />
+    </div>
+
     </>
   )
 }

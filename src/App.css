@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  flex: 1;
 }
 
 .mb-2 {
@@ -14,4 +15,18 @@
 }
 .hstack {
   flex-wrap: wrap !important;
+}
+p {
+  line-height: 1.8rem;
+}
+.page-container {
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  flex: 1;
+  background-color: #f8f9fa;
+}
+h3, h2 {
+  font-family: 'VT323', monospace;
 }

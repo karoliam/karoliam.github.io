@@ -22,4 +22,6 @@ ul, li {
 p {
   text-align: left !important;
 }
-
+.titles {
+  margin-bottom: 1rem !important;
+}

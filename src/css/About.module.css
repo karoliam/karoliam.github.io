@@ -4,6 +4,11 @@
   justify-content: space-around;
   width: 600px;
   margin: 3rem auto;
+  border-width: 0.2px;
+  border-style: solid;
+  border-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 2rem;
 }
 .cvImage {
   width: 20% !important;
@@ -16,4 +21,7 @@ h3 {
 .infoContainer {
   display: flex;
   flex-direction: column;
+}
+.boldText {
+  font-weight: bold;
 }

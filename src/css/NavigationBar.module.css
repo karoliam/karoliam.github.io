@@ -9,3 +9,16 @@
 ul {
   padding-left: 0 !important;
 }
+.logo {
+  width: 30px;
+  margin-left: 1rem;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+}
+.backToTop {
+  margin-top: 1rem;
+}

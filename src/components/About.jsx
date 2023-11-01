@@ -9,7 +9,7 @@ const About = () => {
       <div className={styles.aboutContainer}>
         <Image src={CvPhoto} roundedCircle className={styles.cvImage} />
         <div className={styles.infoContainer}>
-        <h3>Hi, I'm Karoliina Multas!</h3>
+        <h3>&lt;Hi, I'm Karoliina Multas! /&gt;</h3>
         <p>I'm a third-year software development student with
           a strong background in mobile and web app development,
           covering both front-end and back-end. I'm passionate about clean 

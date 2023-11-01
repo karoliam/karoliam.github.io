@@ -1,5 +1,9 @@
 import Login from '../assets/buddy/login-reg-buddy.png';
 import Feed from '../assets/buddy/feed-filteron.png';
+import OpenedPost from '../assets/buddy/openedpost.png';
+import CreatePost from '../assets/buddy/createpost.png';
+import ChatBuddy from '../assets/buddy/chat.png';
+import ProfileBuddy from '../assets/buddy/profile.png';
 import Nokia from '../assets/nokia/export.mp4';
 import AddNewTrip from '../assets/sirpa/addnewtrip.png';
 import CreateMemory from '../assets/sirpa/creatememory.png';
@@ -144,52 +148,52 @@ const projectList = [
       {
         source: StartPage,
         alt: "Start page of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: ChatRooms,
         alt: "Chat room page of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: ChatView,
         alt: "Chat view of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: ChatTools,
         alt: "Chat tools of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: DrawingPad,
         alt: "Drawing pad of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: DrawingPreview,
         alt: "Drawing preview of Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: SendDrawing,
         alt: "Sending a drawing in Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: SendPhoto,
         alt: "Sending a photo in Restroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: ColorBlind,
         alt: "Color blind setting inRestroom chat",
-        width: "250px",
+        width: "300px",
       },
       {
         source: BlackAndWhite,
         alt: "Colorblind mode on in Restroom chat",
-        width: "250px",
+        width: "300px",
       },
     ],
     description: `This app is a unique concept that brings the age-old tradition of drawing and writing on toilet walls into the digital world. The app is designed to work with Bluetooth, making it completely connectionless, and users can send messages through Bluetooth advertising.
@@ -203,7 +207,7 @@ const projectList = [
       {
         source: Login,
         alt: "Login screen for Buddy-app",
-        width: "600px",
+        width: "800px",
 
       },
       {
@@ -211,7 +215,31 @@ const projectList = [
         alt: "Feed screen for Buddy-app",
         width: "600px",
 
-      }
+      },
+      {
+        source: OpenedPost,
+        alt: "Opened post screen for Buddy-app",
+        width: "800px",
+
+      },
+      {
+        source: CreatePost,
+        alt: "Create post screen for Buddy-app",
+        width: "600px",
+
+      },
+      {
+        source: ChatBuddy,
+        alt: "Chat screen for Buddy-app",
+        width: "600px",
+
+      },
+      {
+        source: ProfileBuddy,
+        alt: "Profile screen for Buddy-app",
+        width: "800px",
+
+      },
     ],
     description: "Buddy is a cross-platform mobile application designed to facilitate social connections among individuals seeking company for various events, activities, or casual get-togethers. Developed using React Native, it caters to both iOS and Android platforms. This project, originally conceived as an educational endeavor, focused on creating a versatile media-sharing application that leverages RESTful API technology.",
     techStack: ["React Native", "JavaScript", "Node.js", "REST API", "Expo"]
@@ -223,53 +251,53 @@ const projectList = [
       {
         source: StarterPic,
         alt: "Launch view of the Sirpa-app",
-        width: "250px",
+        width: "300px",
 
       },
       {
         source: LoginVideo,
         alt: "Login video for Sirpa",
-        width: "250px",
+        width: "300px",
         video: true
       },
       {
         source: AddNewTrip,
         alt: "Add new trip view from Sirpa-app",
-        width: "250px",
+        width: "300px",
 
       },
       {
         source: CreateMemory,
         alt: "Create a new memory view from Sirpa-app",
-        width: "250px",
+        width: "300px",
 
       },
       {
         source: FeedSirpa,
         alt: "Feed view from Sirpa-app",
-        width: "250px",
+        width: "300px",
 
       },
       {
         source: FeedPicText,
         alt: "Text on top of picture on Sirpa-app",
-        width: "250px",
+        width: "300px",
 
       },
       {
         source: FolderOpen,
         alt: "Open folder",
-        width: "250px",
+        width: "300px",
       },
       {
         source: MapSirpa,
         alt: "Map view of Sirpa-app",
-        width: "250px",
+        width: "300px",
       },
       {
         source: ProfileSirpa,
         alt: "Profile view on Sirpa-app",
-        width: "250px",
+        width: "300px",
       }
     ],
     description: `Sirpa is a versatile iOS travel app that simplifies journey documentation.

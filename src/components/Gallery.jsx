@@ -11,6 +11,7 @@ function Gallery({list}) {
   return (
     <>
     <section id="projects">
+    <h2 className={styles.titles}>Projects</h2>
       <div className={styles.galleryContainer}>
         {list.map((project, index) => (
           <div key={index} className={styles.oneCarousel}>
@@ -22,7 +23,7 @@ function Gallery({list}) {
                     <video width="300px" height="500px" controls>
                       <source src={pic.source} type="video/mp4" />
                     </video> :
-                    <img src={pic.source} alt={pic.alt} width={pic.width} height="500px" />
+                    <img src={pic.source} alt={pic.alt} width={pic.width} height="600px" />
                   }
                 </Carousel.Item>
               ))}
