@@ -1,0 +1,10 @@
+.pageFooter {
+  height: 10vh;
+  display: flex;
+  background-color: #f8f9fa;
+}
+.footerText {
+  color: rgb(178, 178, 178);
+  margin: auto;
+  align-self: center;
+}

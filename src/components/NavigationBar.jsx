@@ -27,7 +27,7 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className={styles.navBarContainer}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={styles.navContainer}>
           <Nav className="ml-auto">
