@@ -305,7 +305,7 @@ const projectList = [
       and employs speech recognition for quick note-taking. Users can create geotagged posts, manage trips,
        and explore random locations. It offers device-specific login, post management, and a user-friendly profile interface,
         making travel documentation efficient and engaging.`,
-    techStack: ["iOS", "Swift", "MapKit", "CoreData", "Firebase Firetore & Storage", "Speech-to-text", "Localization"]
+    techStack: ["iOS", "Swift", "SwiftUI", "MapKit", "CoreData", "Firebase Firestore & Storage", "Speech-to-text", "Localization"]
   },
 ];
 
