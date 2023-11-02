@@ -29,4 +29,7 @@ ul {
   .navBarContainer {
     width: 80vw !important; /* Set the width to 600px for screens less than 650px */
   }
+  .logoContainer {
+    margin: auto;
+  }
 }

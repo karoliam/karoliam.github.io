@@ -10,9 +10,10 @@ const CV = () => {
   return (
     <>
       <div id="cv-section" className={styles.cvSection}>
-      <h2>Resume</h2>
-      <button onClick={openPdf} className={styles.cvButton}>Open CV</button>
+      <h2 className={styles.cvText}>CV</h2>
       <Image src={Resume} className={styles.resume} />
+      <button onClick={openPdf} className={styles.cvButton}>Open CV</button>
+
       </div>
     </>
   );

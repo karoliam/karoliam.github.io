@@ -8,7 +8,11 @@
   margin:auto;
 }
 .cvButton {
+  margin-top: 1rem;
+}
+.cvText {
   margin-bottom: 1rem;
+  text-decoration: underline;
 }
 @media (max-width: 650px) {
 .cvSection {
