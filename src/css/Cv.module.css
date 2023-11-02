@@ -14,3 +14,10 @@
   margin-bottom: 1rem;
   text-decoration: underline;
 }
+@media (max-width: 650px) {
+  /* Adjust the font size to 2rem when screen width is smaller than 650px */
+.resume {
+  width: 90vw;
+}
+
+}

@@ -36,9 +36,9 @@ p {
 @media (max-width: 650px) {
   /* Adjust the font size to 2rem when screen width is smaller than 650px */
 .galleryContainer {
-  width: 80vw;
+  width: 100vw;
 }
 .cardContainer {
-  width: 60vw !important;
+  width: 100vw !important;
 }
 }

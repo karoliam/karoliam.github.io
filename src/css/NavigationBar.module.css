@@ -24,10 +24,9 @@ ul {
   margin-bottom: 2rem;
 }
 
-/* Media query for screens less than 650px */
 @media (max-width: 650px) {
   .navBarContainer {
-    width: 80vw !important; /* Set the width to 600px for screens less than 650px */
+    width: 100vw !important; 
   }
   .logoContainer {
     margin: auto;
