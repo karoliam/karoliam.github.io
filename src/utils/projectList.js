@@ -1,10 +1,19 @@
-import Login from '../assets/buddy/login-reg-buddy.png';
-import Feed from '../assets/buddy/feed-filteron.png';
-import OpenedPost from '../assets/buddy/openedpost.png';
-import CreatePost from '../assets/buddy/createpost.png';
-import ChatBuddy from '../assets/buddy/chat.png';
-import ProfileBuddy from '../assets/buddy/profile.png';
-import Nokia from '../assets/nokia/export.mp4';
+
+import ChatBuddy from '../assets/buddy/chat.png'
+import CreatePostBuddy from '../assets/buddy/createpost.png'
+import CreatePost2Buddy from '../assets/buddy/createpost2.png'
+import EditPost from '../assets/buddy/editpost.png'
+import EditProfile from '../assets/buddy/editprofile.png'
+import FeedBuddy from '../assets/buddy/feedbuddy.png'
+import FeedFilter from '../assets/buddy/feedfilter.png'
+import LoginScreen from '../assets/buddy/loginscreen.png'
+import MyChats from '../assets/buddy/mychats.png'
+import MyFiles from '../assets/buddy/myfiles.png'
+import OpenPost from '../assets/buddy/openpost.png'
+import PostBuddy from '../assets/buddy/post.png'
+import ProfileView from '../assets/buddy/profileview.png'
+import Registration from '../assets/buddy/registration.png'
+
 import AddNewTrip from '../assets/sirpa/addnewtrip.png';
 import CreateMemory from '../assets/sirpa/creatememory.png';
 import FeedSirpa from '../assets/sirpa/feed.png';
@@ -14,6 +23,7 @@ import MapSirpa from '../assets/sirpa/map.png';
 import ProfileSirpa from '../assets/sirpa/profile.png';
 import StarterPic from '../assets/sirpa/starterpic.png';
 import LoginVideo from '../assets/sirpa/sirpa-loginvideo.mp4';
+
 import StartPage from '../assets/restroom/startpage.png';
 import ChatRooms from '../assets/restroom/chatrooms.png';
 import ChatTools from '../assets/restroom/chattools.png';
@@ -24,6 +34,8 @@ import SendPhoto from '../assets/restroom/sendphoto.png';
 import ChatView from '../assets/restroom/chatview.png';
 import ColorBlind from '../assets/restroom/colorblind.png';
 import BlackAndWhite from '../assets/restroom/blackandwhite.png';
+
+import Nokia from '../assets/nokia/export.mp4';
 import NokiaDesktop1 from '../assets/nokia/NokiaDesktop1.png';
 import NokiaDesktop2 from '../assets/nokia/NokiaDesktop2.png';
 import NokiaDesktop3 from '../assets/nokia/NokiaDesktop3.png';
@@ -78,63 +90,63 @@ const projectList = [
       {
         source: Nokia,
         alt: "Nokia video",
-        width: "600px",
+        width: "300px",
         video: true
       },
       // {
       //   source: NokiaDesktop1,
       //   alt: "Nokia desktop view",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop2,
       //   alt: "Nokia desktop view 2",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop3,
       //   alt: "Nokia desktop view 3",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop4,
       //   alt: "Nokia desktop view 4",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop5,
       //   alt: "Nokia desktop view 5",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop6,
       //   alt: "Nokia desktop view 6",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop7,
       //   alt: "Nokia desktop view 7",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop8,
       //   alt: "Nokia desktop view 8 ",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop9,
       //   alt: "Nokia desktop view 9",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop10,
       //   alt: "Nokia desktop view 10",
-      //   width: "600px",
+      //   width: "300px",
       // },
       // {
       //   source: NokiaDesktop11,
       //   alt: "Nokia desktop view 11",
-      //   width: "600px",
+      //   width: "300px",
       // },
     ],
     description: `Mobile first web-application for Nokia. This app allows Nokia employees to share their daily emotions.
@@ -205,39 +217,87 @@ const projectList = [
     title: "Buddy",
     pictures: [
       {
-        source: Login,
+        source: LoginScreen,
         alt: "Login screen for Buddy-app",
-        width: "600px",
+        width: "300px",
 
       },
       {
-        source: Feed,
+        source: Registration,
         alt: "Feed screen for Buddy-app",
-        width: "600px",
+        width: "300px",
 
       },
       {
-        source: OpenedPost,
+        source: FeedBuddy,
         alt: "Opened post screen for Buddy-app",
-        width: "600px",
+        width: "300px",
 
       },
       {
-        source: CreatePost,
+        source: FeedFilter,
         alt: "Create post screen for Buddy-app",
-        width: "600px",
+        width: "300px",
+
+      },
+      {
+        source: MyChats,
+        alt: "Chat screen for Buddy-app",
+        width: "300px",
 
       },
       {
         source: ChatBuddy,
-        alt: "Chat screen for Buddy-app",
-        width: "600px",
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
 
       },
       {
-        source: ProfileBuddy,
+        source: CreatePostBuddy,
         alt: "Profile screen for Buddy-app",
-        width: "600px",
+        width: "300px",
+
+      },
+      {
+        source: CreatePost2Buddy,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: EditPost,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: OpenPost,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: PostBuddy,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: MyFiles,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: ProfileView,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
+
+      },
+      {
+        source: EditProfile,
+        alt: "Profile screen for Buddy-app",
+        width: "300px",
 
       },
     ],

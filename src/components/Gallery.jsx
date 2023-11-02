@@ -20,7 +20,7 @@ function Gallery({list}) {
               {project.pictures.map((pic, picIndex) => (
                 <Carousel.Item key={picIndex}>
                   {pic.video ?
-                    <video width="300px" height="500px" controls>
+                    <video width="300px" height="600px" controls>
                       <source src={pic.source} type="video/mp4" />
                     </video> :
                     <img src={pic.source} alt={pic.alt} width={pic.width} height="600px" className={styles.galleryPic} />
