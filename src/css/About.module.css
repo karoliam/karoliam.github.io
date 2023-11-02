@@ -35,4 +35,8 @@ h3 {
   align-self: center;
   margin: auto;
 }
+.cvImage {
+  width: 20% !important;
+  height: 20%;
+}
 }

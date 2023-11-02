@@ -8,3 +8,11 @@
   margin: auto;
   align-self: center;
 }
+/* Media query for screens less than 650px */
+@media (max-width: 650px) {
+  .pageFooter {
+    display: none;
+    width: 100vw !important; /* Set the width to 600px for screens less than 650px */
+  }
+
+}

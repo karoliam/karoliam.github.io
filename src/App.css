@@ -31,3 +31,12 @@ h3, h2 {
   font-family: 'VT323', monospace;
 }
 
+@media (max-width: 650px) {
+  #root {
+    padding: 0;
+  }
+  aside {
+    padding: 0;
+    margin: 0;
+  }
+  }

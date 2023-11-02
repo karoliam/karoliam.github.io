@@ -89,3 +89,11 @@ button:focus-visible {
     max-width: 70vw;
   }
 }
+@media (max-width: 650px) {
+  .body {
+    min-width: 200px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  }
