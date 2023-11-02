@@ -1,5 +1,5 @@
-import React, {useRef} from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
+import React, { useRef } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import About from './About';
 import Gallery from './gallery';
 import CV from './CV';
@@ -15,7 +15,7 @@ const NavigationBar = () => {
   const cvRef = useRef();
 
   const scrollToRef = (ref) => {
-    ref.current.scrollIntoView({behavior: 'smooth'});
+    ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   const scrollToTop = () => {
@@ -31,12 +31,14 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={styles.navContainer}>
           <Nav className="ml-auto">
-          <div className={styles.logoContainer}>
-              <a href="https://github.com/karoliam"><Image src={Github} className={styles.logo} />
+            <div className={styles.logoContainer}>
+              <a href="https://github.com/karoliam">
+                <Image src={Github} className={styles.logo} />
               </a>
-              <a href="https://www.linkedin.com/in/karoliinamultas/"><Image src={Linkedin} className={styles.logo} />
+              <a href="https://www.linkedin.com/in/karoliinamultas/">
+                <Image src={Linkedin} className={styles.logo} />
               </a>
-              </div>
+            </div>
             <Nav.Link onClick={() => scrollToRef(aboutRef)}>About</Nav.Link>
             <Nav.Link onClick={() => scrollToRef(projectsRef)}>Projects</Nav.Link>
             <Nav.Link onClick={() => scrollToRef(cvRef)}>CV</Nav.Link>

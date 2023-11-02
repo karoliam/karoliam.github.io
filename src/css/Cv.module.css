@@ -10,3 +10,11 @@
 .cvButton {
   margin-bottom: 1rem;
 }
+@media (max-width: 650px) {
+.cvSection {
+  width: 100vw;
+}
+img {
+  width: 50vw;
+}
+}

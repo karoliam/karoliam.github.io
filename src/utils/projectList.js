@@ -48,67 +48,6 @@ const projectList = [
     title: "Nokia Homebase Emotions",
     pictures: [
       {
-        source: Nokia,
-        alt: "Nokia video",
-        width: "600px",
-        video: true
-      },
-      {
-        source: NokiaDesktop1,
-        alt: "Nokia desktop view",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop2,
-        alt: "Nokia desktop view 2",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop3,
-        alt: "Nokia desktop view 3",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop4,
-        alt: "Nokia desktop view 4",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop5,
-        alt: "Nokia desktop view 5",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop6,
-        alt: "Nokia desktop view 6",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop7,
-        alt: "Nokia desktop view 7",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop8,
-        alt: "Nokia desktop view 8 ",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop9,
-        alt: "Nokia desktop view 9",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop10,
-        alt: "Nokia desktop view 10",
-        width: "600px",
-      },
-      {
-        source: NokiaDesktop11,
-        alt: "Nokia desktop view 11",
-        width: "600px",
-      },
-      {
         source: NokiaMobile1,
         alt: "Nokia Mobile view 1",
       },
@@ -136,6 +75,67 @@ const projectList = [
         source: NokiaMobile7,
         alt: "Nokia Mobile view 7",
       },
+      {
+        source: Nokia,
+        alt: "Nokia video",
+        width: "600px",
+        video: true
+      },
+      // {
+      //   source: NokiaDesktop1,
+      //   alt: "Nokia desktop view",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop2,
+      //   alt: "Nokia desktop view 2",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop3,
+      //   alt: "Nokia desktop view 3",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop4,
+      //   alt: "Nokia desktop view 4",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop5,
+      //   alt: "Nokia desktop view 5",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop6,
+      //   alt: "Nokia desktop view 6",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop7,
+      //   alt: "Nokia desktop view 7",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop8,
+      //   alt: "Nokia desktop view 8 ",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop9,
+      //   alt: "Nokia desktop view 9",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop10,
+      //   alt: "Nokia desktop view 10",
+      //   width: "600px",
+      // },
+      // {
+      //   source: NokiaDesktop11,
+      //   alt: "Nokia desktop view 11",
+      //   width: "600px",
+      // },
     ],
     description: `Mobile first web-application for Nokia. This app allows Nokia employees to share their daily emotions.
      The application is combined with an LED lighting installation that reacts to each emotion expressed,
@@ -207,7 +207,7 @@ const projectList = [
       {
         source: Login,
         alt: "Login screen for Buddy-app",
-        width: "800px",
+        width: "600px",
 
       },
       {
@@ -219,7 +219,7 @@ const projectList = [
       {
         source: OpenedPost,
         alt: "Opened post screen for Buddy-app",
-        width: "800px",
+        width: "600px",
 
       },
       {
@@ -237,7 +237,7 @@ const projectList = [
       {
         source: ProfileBuddy,
         alt: "Profile screen for Buddy-app",
-        width: "800px",
+        width: "600px",
 
       },
     ],

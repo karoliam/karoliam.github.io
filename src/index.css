@@ -55,6 +55,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,5 +66,26 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media (max-width: 650px) {
+  /* Adjust the font size to 2rem when screen width is smaller than 650px */
+  p {
+    font-size: 1rem;
+  }
+  h2, h3 {
+    font-size: 1.5rem;
+  }
+  img {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+  video {
+    max-width: 300px !important;
+    max-height: 300px !important;
+    object-fit: contain;
+  }
+  .mb-2 {
+    max-width: 70vw;
   }
 }

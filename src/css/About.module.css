@@ -25,3 +25,14 @@ h3 {
 .boldText {
   font-weight: bold;
 }
+
+@media (max-width: 650px) {
+  /* Adjust the font size to 2rem when screen width is smaller than 650px */
+.aboutContainer {
+  width: 80vw;
+  border: none;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+}

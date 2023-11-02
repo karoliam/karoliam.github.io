@@ -1,13 +1,16 @@
 .galleryContainer {
-  width: 800px;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
   margin: auto;
 }
 .oneCarousel {
     margin-bottom: 4rem;
 }
-img {
+.galleryPic {
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
+  /* max-width: 100%; */
 }
 
 .descriptionContainer {
@@ -24,4 +27,14 @@ p {
 }
 .titles {
   margin-bottom: 1rem !important;
+}
+.cardContainer {
+  width: 80vh !important;
+}
+
+@media (max-width: 650px) {
+  /* Adjust the font size to 2rem when screen width is smaller than 650px */
+.galleryContainer {
+  width: 80vw;
+}
 }

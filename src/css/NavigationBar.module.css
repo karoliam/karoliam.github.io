@@ -23,3 +23,10 @@ ul {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/* Media query for screens less than 650px */
+@media (max-width: 650px) {
+  .navBarContainer {
+    width: 100vw !important; /* Set the width to 600px for screens less than 650px */
+  }
+}
