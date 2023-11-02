@@ -39,6 +39,6 @@ p {
   width: 80vw;
 }
 .cardContainer {
-  width: 60vw;
+  width: 60vw !important;
 }
 }
